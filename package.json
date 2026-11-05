@@ -1,0 +1,42 @@
+{
+  "name": "split-cents",
+  "version": "1.0.0",
+  "description": "Split money across weights so the parts always add up to exactly the total, with no floating-point errors or lost cents.",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    }
+  },
+  "types": "./index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "scripts": {
+    "test": "node --test test.js"
+  },
+  "keywords": [
+    "money",
+    "cents",
+    "split",
+    "allocate",
+    "largest-remainder",
+    "payments",
+    "rounding"
+  ],
+  "license": "MIT",
+  "author": "Harshit Aryan",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PROSTLE/split-cents.git"
+  },
+  "homepage": "https://github.com/PROSTLE/split-cents#readme",
+  "bugs": {
+    "url": "https://github.com/PROSTLE/split-cents/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
